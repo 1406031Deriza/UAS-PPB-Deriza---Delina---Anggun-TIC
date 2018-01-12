@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/gbr"
+        android:layout_width="match_parent"
+        android:layout_height="297dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        app:srcCompat="@drawable/tic" />
+
+    <TextView
+        android:id="@+id/deri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/gbr"
+        android:layout_weight="0.36"
+        android:fontFamily="monospace"
+        android:text="Deriza M. Alfarizi - 1406031"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/delina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/deri"
+        android:layout_weight="0.36"
+        android:fontFamily="monospace"
+        android:text="Delina Permatasari - 1406029"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/anggun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/delina"
+        android:layout_weight="0.36"
+        android:fontFamily="monospace"
+        android:text="Siti Anggun H - 1406116"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

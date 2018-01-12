@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@android:color/holo_red_dark"
+            android:fontFamily="monospace"
+            android:text="LINK"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@android:color/background_light"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:lineSpacingExtra="4sp"
+            android:text="link merupakan penghubung antara suatu halaman dengan halaman lainnya.link merupakan gambar atau test yang terkait dengan suatu alamat tertentu. jika link di klik maka dokumen html akan menuju ke alamat tersebut "
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@android:color/holo_red_dark"
+            android:fontFamily="monospace"
+            android:text="script"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@android:color/background_light"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="202dp"
+            android:layout_alignLeft="@+id/textView7"
+            android:layout_alignStart="@+id/textView7"
+            android:layout_alignTop="@+id/textView4"
+            app:srcCompat="@drawable/link" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:lineSpacingExtra="4sp"
+            android:text="tuliskan script diatas di notepad dengan format html"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView11"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/textView11"
+            android:background="@android:color/holo_red_dark"
+            android:fontFamily="monospace"
+            android:text="hasil"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@android:color/background_light"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="202dp"
+            android:layout_alignLeft="@+id/textView7"
+            android:layout_alignStart="@+id/textView7"
+            android:layout_alignTop="@+id/textView4"
+            app:srcCompat="@drawable/link2" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView7"
+            android:layout_margin="10dp"
+            android:lineSpacingExtra="4sp"
+            android:text="lihat gambar di atas, gambar diatas merupakan hasil dari hasilnya. ketika kita menklik gambar atau text (klik disini) maka kita akan menuju halaman yang telah dikaitkan"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+</ScrollView>
